@@ -1,0 +1,25 @@
+//BACKEND DATA
+const LINE_NAME = "L-01"
+const LINE_ID = 1
+const BACKEND_URL = "http://192.168.6.94:8080/api"
+const USERNAME = "f01"
+const PASSWORD = "pwdf01"
+
+//OPC DATA
+const OPC_PLC_SERVER = "opc.tcp://192.168.1.68:4840"
+const AUTOMATION_NODE = "ns=4;i=3"
+const COUNTER_NODE = "ns=4;i=4"
+
+//PROGRAM CONSTANTS
+const OPC_READ_FREQUENCY = 20
+
+module.exports = {
+    BACKEND_URL,
+    LINE_ID,
+    USERNAME,
+    PASSWORD,
+    OPC_PLC_SERVER,
+    AUTOMATION_NODE,
+    COUNTER_NODE,
+    OPC_READ_FREQUENCY
+}

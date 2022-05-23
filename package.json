@@ -1,0 +1,23 @@
+{
+  "name": "bsp-mes-line-client",
+  "version": "1.0.0",
+  "description": "Script to reading ID from cards and fetching data from PLC controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "n"
+  },
+  "author": "czechp",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "node-opcua": "^2.50.0",
+    "node-opcua-client": "^2.50.0",
+    "nodemon": "^2.0.13",
+    "serialport": "^9.2.4"
+  }
+}
